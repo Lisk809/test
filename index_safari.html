@@ -75,7 +75,15 @@ buttons.forEach(function(button) {
         window.selectedClass = button.textContent;
     });
 });
-
+var a=[]
+for(var i=0;i<30;i++){
+  a.push(i)
+}
+window.data={
+"1":a,
+"2":a,
+"3":a
+}
 function randItem(arr) {
     var randomIndex = Math.floor(Math.random() * arr.length);
     return arr[randomIndex];
